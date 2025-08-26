@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image" href="image/tcs.jpg">
+    <title>My Simple Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple website using only HTML</p><hr>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the homepage section of the site.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm learning HTML and building a basic webpage.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li> <mark>Project</mark></li>
+                <li><i>Project Two</i></li>
+                <li><del>Project Three</del></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+           <fieldset> <legend>Contact</legend><h2>Contact</h2>
+            <p>You can reach me at: <a href="mailto:example@example.com">example@example.com</a></p>
+            </fieldset>
+        </section>
+    </main><br><hr>
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+    <div class="logo-container">
+      <img src="image/sanfive.jpg" alt="CSS Corp">
+      <img src="image/tcs.jpg" alt="Sanfive">
+      <img src="image/wipro.png" alt="Wipro">
+      <img src="image/zoho.jpg" alt="Zoho">
+      <img src="image/csscorp.png" alt="TCS">
+    </div>
+  </marquee><br><hr>
+   <h1>Audio</h1>
+  <audio src="image/Audio.mpeg" controls autoplay loop></audio>
+
+<h1>Video</h1>
+<video src="image/flower.mp4" controls autoplay loop  width="500px" height="300px"></video>
+    <table>
+
+    <caption><strong>Monthly Sales</strong></caption>
+
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Product</th>
+        <th>Units</th>
+        <th>Revenue ($)</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td rowspan="2">January</td>
+        <td>Gadget A</td>
+        <td>120</td>
+        <td>2,400</td>
+      </tr>
+      <tr>
+        <td>Gadget B</td>
+        <td>75</td>
+        <td>1,875</td>
+      </tr>
+
+      <tr>
+        <td>February</td>
+        <td>Gadget A</td>
+        <td>98</td>
+        <td>1,960</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th colspan="2">Total</th>
+        <th>293</th>
+        <th>6,235</th>
+      </tr>
+    </tfoot>
+    
+  </table><br><hr>
+  <fieldset>
+    <legend>Form</legend>
+      <form>
+
+    <table >
+      <tr>
+        <th>Field</th>
+        <th>Input</th>
+      </tr>
+
+      <tr>
+        <td>First Name</td>
+        <td><input type="text" name="fname"></td>
+      </tr>
+
+      <tr>
+       <td>Last Name</td>
+        <td><input type="text" name="lname"></td>
+      </tr>
+
+      <tr>
+        <td>Email</td>
+        <td><input type="email" name="email"></td>
+      </tr>
+
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </td>
+      </tr>
+
+      <tr>
+        <td>Course</td>
+        <td>
+          <select name="course">
+            <option value="bca">BCA</option>
+            <option value="bsc">B.Sc</option>
+            <option value="ba">BA</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Register">
+          <input type="reset" value="Clear">
+        </td>
+      </tr>
+      
+
+    </table>
+    </fieldset>
+  </form>
+  <hr>
+
+
+
+
+    <footer>
+        <p>&copy; 2025 My Simple Website</p>
+    </footer>
+    
+    </body>
+</html>
